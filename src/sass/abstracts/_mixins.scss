@@ -58,18 +58,14 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
   border-bottom: 0;
 }
 
-@mixin supportColorForIE11 {
+@mixin supportColorForIE11($primary-color, $secondary-color) {
   // Fall for text-gradient not supported in IE11
   color: $secondary-color;
   -webkit-text-fill-color: $secondary-color; // fallback
   @supports (-webkit-background-clip: text) or (background-clip: text) {
-    background-image: linear-gradient(
-      135deg,
-      $primary-color 0%,
-      $secondary-color 100%
-    );
+    background-image: $secondary-color;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // -webkit-text-fill-color: transparent;
     color: transparent;
   }
 }
@@ -79,5 +75,20 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
   @media screen and (-ms-high-contrast: active),
     screen and (-ms-high-contrast: none) {
     @content;
+  }
+}
+
+// Define a mixin to apply color styles for different text colors
+@mixin applyTextColor($primary-color, $secondary-color) {
+  @include supportColorForIE11($primary-color, $secondary-color);
+
+  // Responsive text style for phone
+  @include respond(phone) {
+    background-image: none;
+    -webkit-text-fill-color: $secondary-color;
+  }
+
+  &:hover {
+    transform: translateX(2px);
   }
 }

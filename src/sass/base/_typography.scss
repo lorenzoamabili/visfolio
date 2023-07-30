@@ -27,27 +27,45 @@ a:hover {
   margin-bottom: 4.5rem;
   font-size: $big-font-size;
   font-weight: bold;
-  text-transform: uppercase;
+  text-align: left;
 
   @include respond(phone) {
     font-size: 2.8rem;
   }
 }
 
-.dark-blue-text {
-  color: $dark-blue-text !important;
+.blue-text {
+  color: $blue-color !important;
 }
 
-.text-color-main {
-  @include supportColorForIE11();
+.red-text {
+  color: $red-color !important;
+}
 
-  // Responsive text purple style
-  @include respond(phone) {
-    background-image: none;
-    -webkit-text-fill-color: $secondary-color;
-  }
+.yellow-text {
+  color: $yellow-color !important;
+}
 
-  &:hover {
-    transform: translateX(2px);
-  }
+.super-white-text {
+  color: $super-white-color !important;
+}
+
+.white-text {
+  color: $white-color !important;
+}
+
+.black-text {
+  color: $black-text !important;
+}
+
+.light-black-text {
+  color: $light-black !important;
+}
+
+.grey-text {
+  color: $dark-grey !important;
+}
+
+.light-grey-text {
+  color: $light-grey !important;
 }

@@ -45,34 +45,60 @@
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
+        <div class="home">
         <h1 class="hero-title load-hidden">
-          Ciao, my name is <span class="text-color-main">Lorenzo Amabili</span>
+          Ciao.
           <br />
-          and this is my <i>visfolio</i>.
+          <span class="light-grey-text">My name is</span>
+          <br />
+          Lorenzo Amabili
+          <br />
+          <span class="light-grey-text">and this is my </span>
+           <span class="grey-text"><i>visfolio</i></span>.
         </h1>
+        <br />
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+          <a
+            rel="noreferrer"
+            class="cta-btn yellow-text"
+            href="#about"
+            >About me</a
           >
+          <a
+            rel="noreferrer"
+            class="cta-btn red-text"
+            href="#projects"
+            >My work</a
+          >
+          <a
+            rel="noreferrer"
+            class="cta-btn blue-text"
+            href="#contact"
+            >Contact</a
+          >
+          <hr>
         </p>
       </div>
+    </div>
     </section>
     <!-- /END Hero Section -->
 
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title grey-text load-hidden">About me
+          <hr>
+        </h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
               <img
-                alt="Profile Image"
+                alt="My Profile Image"
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
+                src="assets/me.jpg"
+                alt="My Profile Image"
               />
             </div>
           </div>
@@ -89,12 +115,13 @@
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn cta-btn--resume"
+                  class="cta-btn grey-text"
                   href="assets/resume.pdf"
                 >
-                  View Resume
+                  view my resume
                 </a>
               </span>
+              <hr>
             </div>
           </div>
         </div>
@@ -106,38 +133,47 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
+          <h2 class="section-title grey-text">My work
+            <hr>
+          </h2>
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">
+                  Solar vs Wind Energy
+                </h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the
-                    Twitter standard: no more than 280 characters: complement
-                    the information: the skills learned or reinforced in its
-                    realization and how you faced it, prove to be proactive in
-                    the search for solutions.
+                    Data visualization made for the
+                    <a href="https://github.com/rfordatascience/tidytuesday"
+                      ><b class="grey-text">TidyTuesday</b></a
+                    >
+                    contest. 
+                    <br />
+                    Made by using <a class="grey-text">R (ggplot2)</a> and
+                    <a class="grey-text">Adobe Illustrator</a>.
+                    <hr>
                   </p>
                 </div>
+                <p class="hero-cta load-hidden">
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="projects/python.md"
+                  class="cta-btn red-text"
+                  href="assets/vis/2022-05-03.jpg"
                 >
-                  See Live
+                  view it
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="projects/python.html"
+                  class="cta-btn red-text"
+                  href="https://github.com/lorenzoamabili/TidyTuesdayCode/tree/main/2022-05-03"
                 >
-                  Source Code
+                  see the code
                 </a>
+                </p>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -166,33 +202,40 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">
+                  The NY Times Bestsellers
+                </h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer:
-                    such as having commitment, having perseverance and accepting
-                    alternative solutions. Remember that being a portfolio you
-                    are not selling the project, you are selling yourself, it
-                    reflects the resources used: Frameworks, libraries,
-                    platforms, etc.
+                    Data visualization made for the
+                    <a href="https://github.com/rfordatascience/tidytuesday"
+                      ><b class="grey-text">TidyTuesday</b></a
+                    >
+                    contest. 
+                    <br />
+                    Made by using <a class="grey-text">R (ggplot2)</a> and
+                    <a class="grey-text">Adobe Illustrator</a>.
+                    <hr>
                   </p>
                 </div>
+                <p class="hero-cta load-hidden">
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
+                  class="cta-btn red-text"
+                  href="assets/vis/2022-05-10.jpg"
                 >
-                  See Live
+                  view it
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
+                  class="cta-btn red-text"
+                  href="https://github.com/lorenzoamabili/TidyTuesdayCode/tree/main/2022-05-10"
                 >
-                  Source Code
+                  see the code
                 </a>
+                </p>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -221,32 +264,40 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">
+                  The Eurovision Voting
+                </h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this
-                    description, that will demonstrate communication and/or
-                    leadership skills. Additionally, if you made use of the
-                    mastery of a second language, it will reflect on you
-                    professionalism.
+                    Data visualization made for the
+                    <a href="https://github.com/rfordatascience/tidytuesday"
+                      ><b class="grey-text">TidyTuesday</b></a
+                    >
+                    contest. 
+                    <br />
+                    Made by using <a class="grey-text">R (ggplot2)</a> and
+                    <a class="grey-text">Adobe Illustrator</a>.
+                    <hr>
                   </p>
                 </div>
+                <p class="hero-cta load-hidden">
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
+                  class="cta-btn red-text"
+                  href="assets/vis/2022-05-17.jpg"
                 >
-                  See Live
+                  view it
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
+                  class="cta-btn red-text"
+                  href="https://github.com/lorenzoamabili/TidyTuesdayCode/tree/main/2022-05-03"
                 >
-                  Source Code
+                  see the code
                 </a>
+                </p>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -275,32 +326,40 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">
+                  Learning about Women's Rugby
+                </h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this
-                    description, that will demonstrate communication and/or
-                    leadership skills. Additionally, if you made use of the
-                    mastery of a second language, it will reflect on you
-                    professionalism.
+                    Data visualization made for the
+                    <a href="https://github.com/rfordatascience/tidytuesday"
+                      ><b class="grey-text">TidyTuesday</b></a
+                    >
+                    contest.
+                    <br />
+                    Made by using <a class="grey-text">R (ggplot2)</a> and
+                    <a class="grey-text">Adobe Illustrator</a>.
+                    <hr>
                   </p>
                 </div>
+                <p class="hero-cta load-hidden">
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
+                  class="cta-btn red-text"
+                  href="assets/vis/2022-05-24.jpg"
                 >
-                  See Live
+                  view it
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
+                  class="cta-btn red-text"
+                  href="https://github.com/lorenzoamabili/TidyTuesdayCode/tree/main/2022-05-24"
                 >
-                  Source Code
+                  see the code
                 </a>
+                </p>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -329,32 +388,40 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">
+                  Analyzing Brands' Reputation
+                </h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this
-                    description, that will demonstrate communication and/or
-                    leadership skills. Additionally, if you made use of the
-                    mastery of a second language, it will reflect on you
-                    professionalism.
+                    Data visualization made for the
+                    <a href="https://github.com/rfordatascience/tidytuesday"
+                      ><b class="grey-text">TidyTuesday</b></a
+                    >
+                    contest. 
+                    <br />
+                    Made by using <a class="grey-text">R (ggplot2)</a> and
+                    <a class="grey-text">Adobe Illustrator</a>.
+                    <hr>
                   </p>
                 </div>
+                <p class="hero-cta load-hidden">
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
+                  class="cta-btn red-text"
+                  href="assets/vis/2022-05-31.jpg"
                 >
-                  See Live
+                  view it
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
+                  class="cta-btn red-text"
+                  href="https://github.com/lorenzoamabili/TidyTuesdayCode/tree/main/2022-05-31"
                 >
-                  Source Code
+                  see the code
                 </a>
+              </p>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -386,15 +453,17 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title grey-text">Contact
+          <hr>
+        </h2>
         <div class="contact-wrapper load-hidden">
           <p class="contact-wrapper__text">[Put your call to action here]</p>
           <a
             rel="noreferrer"
             target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            class="cta-btn grey-text"
+            href="mailto:lorenzo.amabili@protonmail.com"
+            >contact me</a
           >
         </div>
       </div>
@@ -405,16 +474,28 @@
     <footer class="footer navbar-static-bottom">
       <div class="container">
         <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i> 
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://twitter.com/LorenzoAmabili"
+            target="_blank"
+          >
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/lorenzoamabili/"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://github.com/lorenzoamabili"
+            target="_blank"
+          >
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
@@ -423,33 +504,11 @@
 
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
+          © 2023 - All rights to Lorenzo Amabili
+          <br/>
+          Website built upon the work made by
           <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
             >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
           >
         </p>
       </div>
