@@ -34,6 +34,17 @@ a:hover {
   }
 }
 
+.section-subtitle {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-weight: bold;
+  text-align: left;
+
+  @include respond(phone) {
+    font-size: 2.4rem;
+  }
+}
+
 .blue-text {
   color: $blue-color !important;
 }
