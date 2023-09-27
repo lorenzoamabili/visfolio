@@ -1,6 +1,6 @@
 #research {
   background-color: #f9f9f9;
-  color: $black-text;
+  color: $light-black;
   margin-top: -10rem;
   padding-top: 15rem;
 
@@ -50,16 +50,16 @@
     }
 
     &__image {
-      width: 420px;
+      width: 90%;
       margin: 0 auto;
 
       @include respond(tab-land) {
-        width: 480px;
+        width: 100%;
         margin: 0;
       }
 
       & .thumbnail {
-        width: 70%;
+        width: 420px;
         border: none;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         transition: all 0.2s ease-out;
