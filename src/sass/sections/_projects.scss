@@ -50,11 +50,11 @@
     }
 
     &__image {
-      width: 90%;
+      width: 300px;
       margin: 0 auto;
 
       @include respond(tab-land) {
-        width: 100%;
+        width: 340px;
         margin: 0;
       }
 
