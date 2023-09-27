@@ -45,6 +45,15 @@
         }
       }
 
+      &-subtitle {
+        margin-bottom: 1.8rem;
+        font-size: $default-font-size;
+
+        @include respond(phone) {
+          font-size: 1.4rem;
+        }
+      }
+
       & p > a {
         color: $green-color;
       }
